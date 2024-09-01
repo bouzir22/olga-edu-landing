@@ -4,12 +4,12 @@ import styled from "styled-components";
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import ProjectImg1 from "../../assets/img/projects/1.png";
-import ProjectImg2 from "../../assets/img/projects/2.png";
-import ProjectImg3 from "../../assets/img/projects/3.png";
-import ProjectImg4 from "../../assets/img/projects/4.png";
-import ProjectImg5 from "../../assets/img/projects/5.png";
-import ProjectImg6 from "../../assets/img/projects/6.png";
+import ProjectImg1 from "../../assets/img/media/IMG-20240830-WA0003.jpg";
+import ProjectImg2 from "../../assets/img/media/IMG-20240830-WA0004.jpg";
+import ProjectImg3 from "../../assets/img/media/IMG-20240830-WA0005.jpg";
+import ProjectImg4 from "../../assets/img/media/IMG-20240830-WA0006.jpg";
+import ProjectImg5 from "../../assets/img/media/IMG-20240830-WA0007.jpg";
+import ProjectImg6 from "../../assets/img/media/IMG-20240830-WA0008.jpg";
 import AddImage2 from "../../assets/img/add/add2.png";
 
 export default function Projects() {
