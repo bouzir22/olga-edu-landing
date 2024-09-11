@@ -12,7 +12,7 @@ export default function TestimonialBox({ text, author }) {
       <p className="whiteColor font13" style={{ paddingBottom: "30px" }}>
         {text}
       </p>
-      <p className="orangeColor font13" style={{alignSelf: 'flex-end'}}>
+      <p className="orangeColor font15 extraBold" style={{alignSelf: 'flex-end'}}>
         <em>{author}</em>
       </p>
     </Wrapper>
