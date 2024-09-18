@@ -19,7 +19,7 @@ export default function Contact() {
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <img src={OlgaWhite} alt="" height={40} />
               <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" }}>
-                Olga Academy
+                Olfa Academy
               </h1>
             </Link>
             <StyleP className="whiteColor font13">
