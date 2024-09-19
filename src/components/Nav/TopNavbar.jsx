@@ -43,7 +43,7 @@ export default function TopNavbar() {
      
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
-                Nos Sejours
+                Nos Séjours
               </Link>
             </li>
             <li className="semiBold font15 pointer">
@@ -60,8 +60,8 @@ export default function TopNavbar() {
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <a href="https://google.com" style={{ padding: "10px 30px 10px 0" }}>
-              Se connecter
+            <a href="http://app.olgaformation.com/" style={{ padding: "10px 30px 10px 0" }}>
+            Se connecter
               </a>
             </li>
           </UlWrapperRight>
