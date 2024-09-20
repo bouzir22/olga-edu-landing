@@ -6,6 +6,7 @@ import FullButton from '../Buttons/FullButton';
 import HeaderImage from '../../assets/img/logo/headerimg.png';
 import QuotesIcon from '../../assets/svg/Quotes';
 import Dots from '../../assets/svg/Dots';
+import {Link} from "react-scroll";
 
 export default function Header() {
 	return (
@@ -13,16 +14,24 @@ export default function Header() {
 			<LeftSide className="flexCenter">
 				<div>
 					<h1 className="extraBold font60">Olga’s International Academy</h1>
-					<HeaderP className="font13 semiBold">
+					<HeaderP className="font10 semiBold">
 						Nous sommes une école de formation professionnelle
 						multidisciplinaire agréée par l’Etat sous le N° 51-275-11, se
 						procurant des atouts nécessaires à l’amélioration de la notoriété et
 						de l’image de marque de votre organisation et ce, en vous assistant
 						vers le progrès perpétuel.
 					</HeaderP>
-					<BtnWrapper>
+					<ContactInfo className="font11 semiBold">
+						Email: direction@oia-tn.com<br />
+						Téléphone: +216 54 563 492
+					</ContactInfo>
+					<Link   to="blog" spy={true} smooth={true} offset={-80}>
+						<BtnWrapper>
 						<FullButton title="Voir les formations" />
-					</BtnWrapper>
+						</BtnWrapper>
+					</Link>
+
+
 				</div>
 			</LeftSide>
 			<RightSide>
@@ -61,6 +70,16 @@ export default function Header() {
 		</Wrapper>
 	);
 }
+
+const ContactInfo = styled.div`
+	max-width: 470px;
+	padding: 0 0 30px 0;
+	line-height: 1.5rem;
+	@media (max-width: 960px) {
+		text-align: center;
+		max-width: 100%;
+	}
+`;
 
 const Wrapper = styled.section`
 	padding-top: 80px;

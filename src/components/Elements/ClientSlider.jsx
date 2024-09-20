@@ -17,14 +17,21 @@ import esmt from "../../assets/img/logo/esmt.png"
 import essa from "../../assets/img/logo/essa.png"
 import maghnia from "../../assets/img/logo/maghnia.png"
 import ucn from "../../assets/img/logo/ucn.png"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function ClientSlider() {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 2,
-    arrows: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: false,  // Prevents pausing when hovered
+    pauseOnFocus: false,  // Prevents pausing when focused
+    nextArrow: <DarkArrow />,
+    prevArrow: <DarkArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -77,6 +84,18 @@ export default function ClientSlider() {
     </div>
   );
 }
+
+
+const DarkArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block",  backgroundColor: "black", borderRadius: "50%" }}
+      onClick={onClick}
+    />
+  );
+};
 
 const LogoWrapper = styled.div`
   width: 100%;
