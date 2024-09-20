@@ -5,7 +5,7 @@ export default function ProjectBox({ img, title, text, action}) {
   return (
     <Wrapper>
       <ImgBtn className="aniamte pointer" onClick={action ? () => action() : null}>
-        <img className="radius8" src={img} alt="project"></img>
+        <img className="radius8" src={img} alt="project" width={200} height={200}></img>
       </ImgBtn>
     </Wrapper>
   );

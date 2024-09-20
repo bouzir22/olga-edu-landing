@@ -5,11 +5,11 @@ import ProjectBox from '../Elements/ProjectBox';
 import FullButton from '../Buttons/FullButton';
 // Assets
 import ProjectImg1 from '../../assets/img/media/IMG-20240830-WA0003.jpg';
-import ProjectImg2 from '../../assets/img/media/IMG-20240830-WA0004.jpg';
-import ProjectImg3 from '../../assets/img/media/IMG-20240830-WA0005.jpg';
-import ProjectImg4 from '../../assets/img/media/IMG-20240830-WA0006.jpg';
-import ProjectImg5 from '../../assets/img/media/IMG-20240830-WA0007.jpg';
-import ProjectImg6 from '../../assets/img/media/IMG-20240830-WA0008.jpg';
+import ProjectImg2 from '../../assets/img/media/sejour2.jpg';
+import ProjectImg3 from '../../assets/img/media/sejour3.jpg';
+import ProjectImg4 from '../../assets/img/media/sejour4.jpg';
+import ProjectImg5 from '../../assets/img/media/sejour5.jpg';
+import ProjectImg6 from '../../assets/img/media/sejour6.jpg';
 import AddImage2 from '../../assets/img/add/add2.png';
 import CronosBox from '../../assets/img/logo/cronosbox.jpg';
 
