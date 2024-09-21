@@ -17,15 +17,16 @@ import esmt from '../../assets/img/logo/esmt.png';
 import essa from '../../assets/img/logo/essa.png';
 import maghnia from '../../assets/img/logo/maghnia.png';
 import ucn from '../../assets/img/logo/ucn.png';
-import univ1 from '../../assets/img/logo/univ1.jpg';
-import univ2 from '../../assets/img/logo/univ2.jpg';
+import oued from '../../assets/img/logo/oued.jpg';
+import betna from '../../assets/img/logo/betna.jpg';
 import univ3 from '../../assets/img/logo/univ3.jpg';
-import univ4 from '../../assets/img/logo/univ4.jpg';
+import khenchela from '../../assets/img/logo/khenchela.jpg';
 import univ5 from '../../assets/img/logo/univ5.png';
 import univ6 from '../../assets/img/logo/univ6.png';
-import univ7 from '../../assets/img/logo/univ7.png';
-import univ8 from '../../assets/img/logo/univ8.png';
-import univ9 from '../../assets/img/logo/univ9.png';
+import omelbouahgi from '../../assets/img/logo/omelbouaghi.png';
+import constantine1 from '../../assets/img/logo/constantine1.png';
+import constantine2 from '../../assets/img/logo/constantine2.png';
+import constantine3 from '../../assets/img/logo/constantine3.png';
 import univ10 from '../../assets/img/logo/univ10.png';
 import univ11 from '../../assets/img/logo/univ11.png';
 import univ12 from '../../assets/img/logo/univ12.png';
@@ -36,7 +37,6 @@ import univ16 from '../../assets/img/logo/univ16.png';
 import univ17 from '../../assets/img/logo/univ17.png';
 import univ18 from '../../assets/img/logo/univ18.png';
 import univ19 from '../../assets/img/logo/univ19.png';
-import univ20 from '../../assets/img/logo/univ20.png';
 import univ21 from '../../assets/img/logo/univ21.png';
 import univ22 from '../../assets/img/logo/univ22.png';
 import univ23 from '../../assets/img/logo/univ23.png';
@@ -82,32 +82,44 @@ export default function ClientSlider() {
 		],
 	};
 
-  const universityImages = [univ1, univ2, univ3, univ4, univ5, univ6, univ7, univ8, univ9, univ10, univ11, univ12, univ13, univ14, univ15, univ16, univ17, univ18, univ19, univ20, univ21, univ22, univ23, univ24, univ25, univ26];
+	const universityImages = [
+		constantine1,
+		constantine2,
+		constantine3,
+		omelbouahgi,
+		betna,
+		khenchela,
+		univ3,
+		univ5,
+		univ6,
+		univ10,
+		univ11,
+		univ12,
+		univ13,
+		univ14,
+		univ15,
+		univ16,
+		univ17,
+		univ18,
+		univ19,
+		univ21,
+		univ22,
+		univ23,
+		univ24,
+		univ25,
+		univ26,
+    anon,
+    ems,
+    esi,
+    esmt,
+    essa,
+    maghnia,
+    ucn,
+	];
 
 	return (
 		<div>
 			<Slider {...settings}>
-				<LogoWrapper className="flexCenter">
-					<ImgStyle src={anon} alt="client logo" />
-				</LogoWrapper>
-				<LogoWrapper className="flexCenter">
-					<ImgStyle src={ems} alt="client logo" />
-				</LogoWrapper>
-				<LogoWrapper className="flexCenter">
-					<ImgStyle src={esi} alt="client logo" />
-				</LogoWrapper>
-				<LogoWrapper className="flexCenter">
-					<ImgStyle src={esmt} alt="client logo" />
-				</LogoWrapper>
-				<LogoWrapper className="flexCenter">
-					<ImgStyle src={essa} alt="client logo" />
-				</LogoWrapper>
-				<LogoWrapper className="flexCenter">
-					<ImgStyle src={maghnia} alt="client logo" />
-				</LogoWrapper>
-				<LogoWrapper className="flexCenter">
-					<ImgStyle src={ucn} alt="client logo" />
-				</LogoWrapper>
 				{universityImages.map((img, index) => (
 					<>
 						<LogoWrapper className="flexCenter">

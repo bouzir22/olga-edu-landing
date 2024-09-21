@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import ContactImg1 from "../../assets/img/logo/form1.png";
-import ContactImg2 from "../../assets/img/logo/form2.png";
-import ContactImg3 from "../../assets/img/logo/form3.png";
+import ContactImg1 from "../../assets/img/media/sejour4.jpg";
+import ContactImg2 from "../../assets/img/media/sejour6.jpg";
+import ContactImg3 from "../../assets/img/media/sejour5.jpg";
 
 export default function Contact() {
   return (
@@ -31,15 +31,15 @@ export default function Contact() {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
               <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
                 <ContactImgBox>
-                  <img src={ContactImg1} alt="office" className="radius6" />
+                  <img src={ContactImg1} alt="office" className="radius6" width={180} height={204} />
                 </ContactImgBox>
                 <ContactImgBox>
-                  <img src={ContactImg2} alt="office" className="radius6" />
+                  <img src={ContactImg2} alt="office" className="radius6" width={180} height={295} />
                 </ContactImgBox>
               </div>
               <div style={{ width: "50%" }}>
                 <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius6" />
+                  <img src={ContactImg3} alt="office" className="radius6" width={278} height={330} />
                 </div>
               </div>
             </div>
